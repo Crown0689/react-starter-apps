@@ -1,5 +1,9 @@
 import React,{Component} from 'react';
+
+import 'react-responsive-carousel/lib/stles/carousel.min.css';
+import DemoCarousel from './components/tryout'
 import './App.css';
+
  
 
 let styles = {
@@ -24,7 +28,7 @@ let styles = {
 const Carsl = () => {
 	return (
 		<div style={styles}>
-			 Welcome to the Carousel..
+      <DemoCarousel/>
 		</div>
 	  )
 }
